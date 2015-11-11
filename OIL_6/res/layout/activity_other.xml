@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.mycaraccount.OtherActivity" >
+	<TextView
+	     android:id="@+id/curtime_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="6px"
+        android:text="日期：2015-12-12"
+        android:textSize="40px"
+        android:gravity="center"/>
+    <RadioGroup 
+        android:id="@+id/radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/road"
+        android:textSize="32px" />
+        <RadioButton
+            android:id="@+id/radio_road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="过路费"
+            android:checked="true" />
+		 <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/repair"
+        android:textSize="32px" />
+        <RadioButton
+            android:id="@+id/radio_repaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保养费" />
+		 <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/other"
+        android:textSize="32px" />
+        <RadioButton
+            android:id="@+id/radio_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽车配件杂项" />
+    </RadioGroup>
+	<TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/yuan2"
+        android:layout_gravity="right"
+        android:textSize="32px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="费用(元)" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editText_otherscost"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edittext"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:onClick="saveother" />
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textColor="#cccccc"
+        android:text="\n温馨提示：数据只能是整数!"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/caidan"
+    tools:context="com.example.mycaraccount.MenuActivity" >
+<ImageView
+        android:id="@+id/image_userlogo_2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/head"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/menu_oil_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#333333"
+        android:text="加油录入"
+        android:background="@drawable/buttonstyle1"/>
+    <Button
+        android:id="@+id/menu_other_2"
+        android:layout_width="match_parent"
+        android:text="其他录入"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle2" />
+    <Button
+        android:id="@+id/menu_monthReport_2"
+        android:layout_width="match_parent"
+        android:text="月份报告"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle3" />
+     <Button
+        android:id="@+id/menu_yearReport_2"
+        android:layout_width="match_parent"
+        android:text="年度报告"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle4" />
+    <Button
+        android:id="@+id/menu_scaleReport_2"
+        android:layout_width="match_parent"
+        android:text="年度比例"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle5" />
+    <Button
+        android:id="@+id/menu_chargeDetail_2"
+        android:layout_width="match_parent"
+        android:text="查看明细"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle6" />
+    
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:id="@+id/date_begin_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="270dp"
+        android:text="确定" />
+
+</AbsoluteLayout>

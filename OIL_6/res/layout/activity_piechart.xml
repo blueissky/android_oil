@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+	<HorizontalScrollView
+            android:id="@+id/horizontalScrollView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/year_search11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/but_2015s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:background="@drawable/btnsumfile"/>
+
+                <Button
+                    android:id="@+id/but_2016s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016"
+                    android:background="@drawable/btnsumfile"  />
+
+                <Button
+                    android:id="@+id/but_2017s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017"
+                   android:background="@drawable/btnsumfile"  />
+
+                <Button
+                    android:id="@+id/but_2018s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018"
+                   android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2019s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                   android:background="@drawable/btnsumfile"  />
+
+                <Button
+                    android:id="@+id/but_2020s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2021s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2022s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2023s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2023"
+                   android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2024s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="5dp"
+                    android:text="2024"
+                    android:width="5dp"
+                    android:background="@drawable/btnsumfile"  />
+
+                <Button
+                    android:id="@+id/but_2025s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2025"
+                    android:background="@drawable/btnsumfile" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/scale_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="6" />
+    <TextView
+        android:id="@+id/scale_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdfsdf"
+        android:layout_weight="2"
+        android:layout_marginLeft="10dp">
+    </TextView>
+</LinearLayout>

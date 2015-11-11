@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<LinearLayout
+        android:id="@+id/report_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/year_search2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/but_2015m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2016m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2017m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2018m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2019m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2020m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2021m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2022m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2023m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2023"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2024m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:height="5dp"
+                    android:text="2024"
+                    android:width="5dp"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_2025m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2025"
+                    android:background="@drawable/btnsumfile" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/but_01m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_02m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="二月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_03m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="三月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_04m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="四月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_05m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="五月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_06m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="六月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_07m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="七月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_08m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="八月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_09m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_10m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="十月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_11m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="十一月"
+                    android:background="@drawable/btnsumfile" />
+
+                <Button
+                    android:id="@+id/but_12m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="十二月"
+                    android:background="@drawable/btnsumfile" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/another_char"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"/>
+	<TextView
+	    android:id="@+id/monthcostsum"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    />
+</LinearLayout>

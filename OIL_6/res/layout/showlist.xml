@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/list_back" >
+
+    <TextView
+        android:id="@+id/oil_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="#D1EEEE"
+        />
+	
+    <TextView
+        android:id="@+id/time_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:textSize="24dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#D1EEEE"/>
+	<TextView
+	    android:id="@+id/hidden_id"
+	    android:text="hidden"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:visibility="invisible"/>
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <LinearLayout
+            android:id="@+id/year_search3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/but_2015y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2016y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2017y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2018y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2019y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2020y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2021y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2021"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2022y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2023y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2024y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="5dp"
+                android:text="2024"
+                android:width="5dp"
+                android:background="@drawable/btnsumfile" />
+
+            <Button
+                android:id="@+id/but_2025y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2025"
+                android:background="@drawable/btnsumfile" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/year_report_char"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"/>
+
+</LinearLayout>

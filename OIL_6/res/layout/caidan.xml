@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/caidan"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/image_userlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/head"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/menu_oil"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#333333"
+        android:text="加油录入"
+        android:background="@drawable/buttonstyle1"/>
+    <Button
+        android:id="@+id/menu_other"
+        android:layout_width="match_parent"
+        android:text="其他录入"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle2"/>/
+    <Button
+        android:id="@+id/menu_monthReport"
+        android:layout_width="match_parent"
+        android:text="月份报告"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle3" />
+     <Button
+        android:id="@+id/menu_yearReport"
+        android:layout_width="match_parent"
+        android:text="年度报告"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle4" />
+    <Button
+        android:id="@+id/menu_scaleReport"
+        android:layout_width="match_parent"
+        android:text="年度比例"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle5" />
+    <Button
+        android:id="@+id/menu_chargeDetail"
+        android:layout_width="match_parent"
+        android:text="查看明细"
+        android:textColor="#333333"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle6" />
+
+</LinearLayout>
